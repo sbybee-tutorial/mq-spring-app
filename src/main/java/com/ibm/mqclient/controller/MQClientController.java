@@ -21,7 +21,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 @RestController
 @EnableJms
-@Api(description = "Set of endpoints for putting and getting messages to an MQ queue.")
+@Api(description = "Set of endpoints for putting and getting messages to an MQ queue...")
 public class MQClientController {
 
 	@Autowired
